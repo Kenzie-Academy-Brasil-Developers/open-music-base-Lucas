@@ -1,0 +1,18 @@
+ li{
+    background-color: var(--color-grey-8);
+}
+
+.button-todos{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8); 
+    cursor: pointer;  
+}
+
+li{
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: 'inter', sans-serif;
+    cursor: pointer;
+}
+

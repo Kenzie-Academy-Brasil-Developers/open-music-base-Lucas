@@ -1,1 +1,52 @@
 /* Desenvolva sua estilização aqui ... */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding);
+}
+
+
+nav{
+    padding: var(--padding);
+}
+
+.musicGenres{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;    
+    list-style: none;
+    gap: 19px;
+}
+
+
+.section-input{
+    padding: var(--padding);
+
+}
+
+
+.div-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-card{
+padding: var(--padding);
+}
+
+.img-card{
+    width: 100%;
+    height: 113px;
+}
+
+.li-card{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    background-color: var(--color-grey-8);
+}

@@ -1,0 +1,20 @@
+h1{
+    font-size: 28px;
+    font-weight: 600;
+    color:var(--color-grey-1) ;
+}
+
+h3{
+    color:var(--color-grey-1) ;
+}
+
+h4{
+    color: var(--color-grey-4);
+}
+
+P{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1.5rem 0 1.5rem;
+    color: var(--color-grey-1);
+}

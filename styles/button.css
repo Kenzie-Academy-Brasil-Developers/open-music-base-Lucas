@@ -1,8 +1,6 @@
- li{
-    background-color: var(--color-grey-8);
-}
 
-.button-todos{
+
+li:hover{
     background-color: var(--color-grey-1);
     color: var(--color-grey-8); 
     cursor: pointer;  
@@ -13,6 +11,7 @@ li{
     padding: 5px;
     font-size: 12px;
     font-family: 'inter', sans-serif;
-    cursor: pointer;
+    cursor: pointer;    
+    color: var(--color-grey-2);
 }
 

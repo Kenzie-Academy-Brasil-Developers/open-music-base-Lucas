@@ -2,7 +2,9 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding: var(--padding);
+    padding: var(--padding);    
+    background-color: var(--color-grey-9);    
+    
 }
 
 
@@ -33,6 +35,7 @@ nav{
 .div-price{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .section-card{
@@ -47,6 +50,25 @@ padding: var(--padding);
 .li-card{
     display: flex;
     flex-direction: column;
-    gap: 17px;
+    
+  
+}
+
+.div-span{
+    display: flex;
+    gap: 30px;
+}
+
+.div-info-card{
+    display: flex;
+    height: 129px;
+    gap: 20px;
+    flex-direction: column;
     background-color: var(--color-grey-8);
+    justify-content: space-around;
+    padding: 15px;
+}
+
+#darkMode{
+    cursor: pointer;
 }

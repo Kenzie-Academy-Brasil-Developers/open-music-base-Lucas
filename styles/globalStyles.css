@@ -32,6 +32,18 @@
   --padding: 0.625rem;
 }
 
+.dark-mode:root{
+  --color-grey-2:#ced4da;
+  --color-grey-8: #212529 ;
+  --color-grey-1:#fdfeff;
+  --color-grey-4: #adb5bd;
+  --color-grey-9: #15171a;
+  --color-grey-6: #15171a;
+  --color-white-fixed: #15171a;
+  --color-actived-fixed: #f8f9fa;
+  --color-grey-7:#2b2f33;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;

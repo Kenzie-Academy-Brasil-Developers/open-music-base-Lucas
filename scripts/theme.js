@@ -4,7 +4,7 @@ const createCard = (products) => {
   let div = document.createElement('div')
 
   div.insertAdjacentHTML("afterbegin", `
-    <p>Albuns encontrados</p>
+    
         <div>
           <ul>
             <li class="li-card">

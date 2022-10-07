@@ -1,9 +1,9 @@
 /* Desenvolva sua lógica aqui ... */
 
 const createCard = (products) => {
-    let div = document.createElement('div')
+  let div = document.createElement('div')
 
-    div.insertAdjacentHTML("afterbegin", `
+  div.insertAdjacentHTML("afterbegin", `
     <p>Albuns encontrados</p>
         <div>
           <ul>
@@ -25,20 +25,20 @@ const createCard = (products) => {
           </ul>
     `)
 
-    return div
+  return div
 }
 
 const section = document.querySelector(".section-card")
 const renderCard = (cardList) => {
 
-    section.innerHTML = ""
+  section.innerHTML = ""
 
-    cardList.forEach((element) => {
-        const card = createCard(element)
-        section.appendChild(card)
-    })
+  cardList.forEach((element) => {
+    const card = createCard(element)
+    section.appendChild(card)
+  })
 
-    createCard(cardList)
+  createCard(cardList)
 
 }
 renderCard(products)
@@ -49,28 +49,28 @@ renderCard(products)
 
 const createCategory = () => {
 
-    let div = document.createElement('div')
+  let div = document.createElement('div')
 
-    div.insertAdjacentHTML("afterbegin", `
+  div.insertAdjacentHTML("afterbegin", `
     <p>Genero musical</p>
     <ul class="musicGenres">
-      <li>Todos</li>
-      <li>Pop</li>
-      <li>MPB</li>
-      <li>Forró</li>
-      <li>Samba</li>
-      <li>Baião</li>
-      <li>Rap</li>
-      <li>Hip-Hop</li>
-      <li>Rock</li>
-      <li>Reggae</li>
-      <li>Country</li>
-      <li>Gospel</li>
+      <li class="filterItem">Todos</li>
+      <li class="filterItem">Pop</li>
+      <li class="filterItem">MPB</li>
+      <li class="filterItem">Forró</li>
+      <li class="filterItem">Samba</li>
+      <li class="filterItem">Baião</li>
+      <li class="filterItem">Rap</li>
+      <li class="filterItem">Hip-Hop</li>
+      <li class="filterItem">Rock</li>
+      <li class="filterItem">Reggae</li>
+      <li class="filterItem">Country</li>
+      <li class="filterItem">Gospel</li>
     </ul>
 
     `)
 
-    return div
+  return div
 }
 
 
@@ -78,10 +78,10 @@ const createCategory = () => {
 const nav = document.querySelector(".container-category")
 const renderCategory = (categoryList) => {
 
-    const card = createCategory()
-    nav.appendChild(card)
+  const card = createCategory()
+  nav.appendChild(card)
 
-    createCategory(categoryList)
+  createCategory(categoryList)
 
 }
 renderCategory(categories)

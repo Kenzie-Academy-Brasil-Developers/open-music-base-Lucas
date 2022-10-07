@@ -33,6 +33,7 @@
 }
 
 .dark-mode:root{
+  transition: 500ms;
   --color-grey-2:#ced4da;
   --color-grey-8: #212529 ;
   --color-grey-1:#fdfeff;
@@ -42,6 +43,10 @@
   --color-white-fixed: #15171a;
   --color-actived-fixed: #f8f9fa;
   --color-grey-7:#2b2f33;
+}
+
+:not(.dark-mode){
+  transition: 500ms;
 }
 
 body {
